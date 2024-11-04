@@ -67,7 +67,7 @@
             $totalItems = 0;
             $totalCost = 0;
     
-            echo "<h3>Order Summary:</h3>";
+            echo "<h3>Purchase Summary:</h3>";
             foreach ($selectedDrinks as $drink) {
                 $costPerDrink = $prices[$drink] + $sizeAdditionalCost;
                 $drinkTotalCost = $costPerDrink * $quantity;
